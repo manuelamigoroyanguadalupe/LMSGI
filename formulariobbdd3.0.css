@@ -1,0 +1,29 @@
+header{
+	background-color:lightblue;
+	font-size:40px;
+	font-weight:bolder;
+	align-content:center;
+	text-align:center;
+	position:relative;
+	margin: 0 auto;
+	width:40%;
+	height:70px;
+	border-radius: 12px;
+}
+
+div{
+	position:relative;
+	width:40%;
+	margin: 0 auto;
+	align-content:center;
+	text-align:center;
+}
+
+input{
+	border-radius: 12px;
+	width:250px;
+	height:30px;
+}
+.text{
+	font-size:20px;
+}

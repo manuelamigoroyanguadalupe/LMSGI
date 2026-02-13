@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="formulariobbdd2.0.css" type="text/css">
+    <title>Formulario</title>
+</head>
+<body>
+	<header>Potencia digital</header>
+	<div>
+		<form method="POST" action="mostrar_datos2.0.php">
+			<fieldset>
+				<legend><span class="text">Ponentes</span></legend>
+				
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre" required><br>
+				
+				<label for="telefono">Telefono:</label>
+				<input type="text" id="telefono" name="telefono" required><br>
+				
+				<label for="tema">Tema:</label>
+				<select for="tema"  id="tema" name="tema">
+					<option value="1">Ciberseguridad</option>
+					<option value="2">Robotica</option>
+					<option value="3">Redes</option>
+				</select><br><br>
+				
+				<label for="correo">Correo:</label>
+				<input type="email" id="correo" name="correo" required><br>
+				
+				<label for="info_adicional">Info_adicional:</label><br>
+				<textarea name="hard" cols="40" rows="8" wrap="hard">
+				
+				</textarea><br><br>
+				<input type="submit" value="Enviar">
+				<input type="reset" value="Limpiar">
+			</fieldset>		
+		</form>
+	</div>
+ </body>
+</html>
